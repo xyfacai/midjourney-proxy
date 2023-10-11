@@ -125,4 +125,19 @@ public class TaskServiceImpl implements TaskService {
 		});
 	}
 
+	@Override
+	public SubmitResultVO submitPan(Task task, String targetMessageId, String targetMessageHash, int index, int messageFlags) {
+		return null;
+	}
+
+	@Override
+	public SubmitResultVO submitVary(Task task, String targetMessageId, String targetMessageHash, int index, int messageFlags) {
+		return null;
+	}
+
+	@Override
+	public SubmitResultVO submitZoom(Task task, String targetMessageId, String targetMessageHash, int index, int messageFlags) {
+		return null;
+	}
+
 }
